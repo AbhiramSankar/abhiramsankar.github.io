@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhiram Sankar Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.css"
+      integrity="sha512-4wFGk961cJS2gpSfzy1vU+R8Q93foZOoGgfEDetiClOqNvggdtnRpdCsAgfm8VU9mKkv2unla8RBYwA6hoFwqg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="#cert" class="nav__link">My Certifications</a>
+          </li>
+          <li class="nav__item">
+            <a href="project__page.html" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="cert__page.html" class="nav__link">Certifications</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hello... I am <strong>Abhiram Sankar</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        ELECTRONICS AND COMMUNICATION ENGINEERING STUDENT
+      </p>
+      <img
+        src="img/pfp.jpg"
+        alt="A Picture of Abhiram Sankar"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Student at National Institute of Technology Puducherry
+      </p>
+
+      <img
+      src="img/abhiram_sitting.jpg"
+      alt="Abhiram Sitting by the Ocean"
+      class="about-me__img"
+    />
+
+      <div class="about-me__body">
+        <p>Hello there!</p>
+        <p>
+          <strong>I am Abhiram Sankar,</strong> and I am a UG Final Year Student
+          studying Electronics and Communication Engineering at the National
+          Institute of Technology, Puducherry on the coast of the Bay of Bengal.
+          But I believe you were aware of this.
+        </p>
+        <p>
+          <strong>I enjoy solving problems and puzzles.</strong> As a result,
+          despite being an Electronics Student, I enjoy coding and programming.
+          I enjoy the challenge of solving any problem or puzzle that is thrown
+          at me. I primarily work with Game Development and Machine Learning,
+          and I hope to combine the two to improve user experience. As long as
+          there's a problem to solve or a puzzle to solve, it's bound to be
+          something I enjoy!
+        </p>
+        <p>
+          Are you wondering if I'd be a good fit for your company? 
+        </p>
+        <a href="https://drive.google.com/file/d/1WIuxcY2FqZghydmg5zx1Ri09j6pysB1v/view?usp=sharing" class="btn2">Check out my CV here</a>
+
+        <p> </p>
+      </div>
+
+    
+    </section>
+
+    <!-- My Project -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A Selection of My Range of Work
+      </p>
+      <div class="cards">
+        <!--Card1-->
+        <div id="container">
+          <div class="card">
+            <img
+              src="img/SCD.jpg"
+              alt="Skin Cancer Detection"
+              class="card__img"
+            />
+
+            <div class="card__details">
+              <span class="tag">Deep Learning</span>
+              <span class="tag">Python</span>
+              <span class="tag">TensorFlow</span>
+              <div class="card__content">
+                <div class="card__tittle">
+                  Skin Cancer Detection Using Deep Learning
+                </div>
+                <div class="card__body">
+                  <p>
+                    Skin Cancer Classification using Deep Learning Models using
+                    Dermoscopic Images.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a href="pages/project/project1.html" class="card__btn">Read more</a>
+          </div>
+        </div>
+
+        <!--Card2-->
+        <div id="container">
+          <div class="card">
+            <img
+              src="img/YELP1.jpg"
+              alt="YELP Data Analysis"
+              class="card__img"
+            />
+
+            <div class="card__details">
+              <span class="tag">SQL</span>
+              <span class="tag">SQLite</span>
+              <span class="tag">Data Science</span>
+              <div class="card__content">
+                <div class="card__tittle">YELP Data Analysis</div>
+                <div class="card__body">
+                  <p>
+                    Analysis of the YELP Dataset to Find the Required
+                    Information.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a href="pages/project/project2.html" class="card__btn">Read more</a>
+          </div>
+        </div>
+
+        <!--Card3-->
+        <div id="container">
+          <div class="card">
+            <img
+              src="img/SSE.JPG"
+              alt="Space Station Escape"
+              class="card__img"
+            />
+
+            <div class="card__details">
+              <span class="tag">Unity</span>
+              <span class="tag">C#</span>
+              <span class="tag">Game Development</span>
+              <div class="card__content">
+                <div class="card__tittle">Space Station Escape</div>
+                <div class="card__body">
+                  <p>2D Platformer Game made using Unity Engine.</p>
+                </div>
+              </div>
+            </div>
+            <a href="pages/project/project6.html" class="card__btn">Read more</a>
+          </div>
+        </div>
+
+        <!--Card4-->
+        <div id="container">
+          <div class="card">
+            <img src="img/ARC.jpg" alt="AR Car Visualizer" class="card__img" />
+
+            <div class="card__details">
+              <span class="tag">AR</span>
+              <span class="tag">Unity</span>
+              <span class="tag">C#</span>
+              <div class="card__content">
+                <div class="card__tittle">AR Car Visualizer</div>
+                <div class="card__body">
+                  <p>Building an AR Car Visualizer using Unity Engine.</p>
+                </div>
+              </div>
+            </div>
+            <a href="pages/project/project13.html" class="card__btn">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="project__page.html" class="btn">View All</a>
+    </section>
+
+    <!--certifications-->
+
+    <section class="certifications" id="cert">
+      <h2 class="section__title section__title--cert">My Certifications</h2>
+      <p class="section__subtitle section__subtitle--cert">
+        A few of my Trainings and Certifications
+      </p>
+      <div class="cards">
+        <!--Certifications1-->
+        <div id="container">
+          <div class="cert">
+            <img
+              src="img/ucdavis.jpg"
+              alt="SQL for Data Science"
+              class="cert__img"
+            />
+
+            <div class="card__details">
+              <span class="cert__tag">SQL</span>
+              <span class="cert__tag">SQLite</span>
+              <span class="cert__tag">Data Science</span>
+
+              <div class="card__tittle">SQL for Data Science</div>
+            </div>
+            <a href="pages/cert/cert1.html" class="cert__btn">View Details</a>
+          </div>
+        </div>
+
+        <!--Certifications2-->
+        <div id="container">
+          <div class="cert">
+            <img
+              src="img/UoW.jpg"
+              alt="Machine Learning Foundations: A Case Study Approach"
+              class="cert__img"
+            />
+
+            <div class="card__details">
+              <span class="cert__tag">Machine Learning</span>
+              <span class="cert__tag">Python</span>
+              <span class="cert__tag">TuriCreate</span>
+
+              <div class="card__tittle">
+                Machine Learning Foundations: A Case Study Approach
+              </div>
+            </div>
+            <a href="pages/cert/cert2.html" class="cert__btn">View Details</a>
+          </div>
+        </div>
+
+        <!--Certifications3-->
+        <div id="container">
+          <div class="cert">
+            <img
+              src="img/msu.jpg"
+              alt="Game Design and Development"
+              class="cert__img"
+            />
+
+            <div class="card__details">
+              <span class="cert__tag">Unity</span>
+              <span class="cert__tag">C#</span>
+              <span class="cert__tag">Game Development </span>
+
+              <div class="card__tittle">
+                Game Design and Development 2: 2D Platformer
+              </div>
+            </div>
+            <a href="pages/cert/cert4.html" class="cert__btn">View Details</a>
+          </div>
+        </div>
+
+        <!--Certifications4-->
+        <div id="container">
+          <div class="cert">
+            <img
+              src="img/verzeo.png"
+              alt="Augmented Reality and Virtual Reality"
+              class="cert__img"
+            />
+
+            <div class="card__details">
+              <span class="cert__tag">AR</span>
+              <span class="cert__tag">Unity</span>
+              <span class="cert__tag">C#</span>
+
+              <div class="card__tittle">
+                Augmented Reality and Virtual Reality
+              </div>
+            </div>
+            <a href="pages/cert/cert7.html" class="cert__btn">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="cert__page.html" class="btn2">View All</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+      <a href="mailto:abhiramsankar102000@gmail.com" class="footer__link">abhiramsankar102000@gmail.com</a>
+      <ul class="social-list">
+          <li class="social-list__item">
+              <a class="social-list__link" href="https://github.com/AbhiramSankar">
+                  <i class="fab fa-github"></i>
+              </a>
+          </li>
+          <li class="social-list__item">
+              <a class="social-list__link" href="https://gitlab.com/AbhiramSankar">
+                  <i class="fa-brands fa-gitlab"></i></i>
+              </a>
+          </li>
+          <li class="social-list__item">
+              <a class="social-list__link" href="https://www.linkedin.com/in/abhiram-sankar/">
+                  <i class="fab fa-linkedin"></i>
+              </a>
+          <li class="social-list__item">
+              <a class="social-list__link" href="https://twitter.com/abhiramsankar10">
+                  <i class="fab fa-twitter"></i>
+              </a>
+          </li>
+      </ul>
+  </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

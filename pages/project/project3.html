@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Abhiram Sankar Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.css" integrity="sha512-4wFGk961cJS2gpSfzy1vU+R8Q93foZOoGgfEDetiClOqNvggdtnRpdCsAgfm8VU9mKkv2unla8RBYwA6hoFwqg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="/css/style.css">
+
+    </head>
+    <body>
+        <header>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="/index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="/index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="/index.html#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="/index.html#cert" class="nav__link">My Certifications</a></li>
+                    <li class="nav__item">
+                      <a href="/project__page.html" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="/cert__page.html" class="nav__link">Certifications</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro cert__intro">
+              <strong>Deep Learning</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro project--intro">COMPLETED ON: 07.SEPTEMBER.2021</p>
+            <img src="/img/DL.jpg" alt="Deep Learning" class="intro__img">
+        </section>
+
+        <!--Projects-->
+
+        <section class="project3" id="project3">
+            <div class="project__content">
+                <p><strong>Skills Involved: </strong>
+                    <span class="cert__tag2">Deep Learning</span>
+                    <span class="cert__tag2">Machine Learning</span>
+                    <span class="cert__tag2">Python</span>
+                    <span class="cert__tag2">TuriCreate</span>
+                    <span class="cert__tag2">Image Retrieval</span></p>
+                <p><strong>Mentor:</strong> Emily Fox and Carlos Guestrin</p>
+                <p><strong>Links:</strong>
+                    <span class="pro--links"><a href="https://github.com/AbhiramSankar/DeepLearning.git" class="pro__link" alt="GitHub"> <i class="fab fa-github"></i></a></span>
+                    <span class="pro--links"><a href="https://gitlab.com/AbhiramSankar/DeepLearning.git" class="pro__link" alt="GitLab"><i class="fa-brands fa-gitlab"></i></a></span></p> 
+            </div>
+            <div class="project__description">
+                <p>This assignment focuses on using deep learning to generate nonlinear features in order to improve machine learning performance. Transfer learning techniques are used to apply deep features learned from one dataset to achieve excellent performance on another. This model was created to help with image retrieval and classification tasks.</p>
+                <p>There are four tasks in this assignment which include -  computing summary statistics of the data, creating category-specific image retrieval models, trying a simple example of nearest-neighbors classification and computing nearest neighbors accuracy.</p>
+            </div>
+          <a href="/project__page.html" class="btn"><< Back to Projects</a>
+        </section>
+        
+
+        <!-- Footer -->
+        <footer class="footer">
+
+            <a href="mailto:abhiramsankar102000@gmail.com" class="footer__link">abhiramsankar102000@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/AbhiramSankar">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://gitlab.com/AbhiramSankar">
+                        <i class="fa-brands fa-gitlab"></i></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/abhiram-sankar/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/abhiramsankar10">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+
+        <script src="/js/index.js"></script>
+
+    </body>
+</html>

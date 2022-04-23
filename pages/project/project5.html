@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Abhiram Sankar Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.css" integrity="sha512-4wFGk961cJS2gpSfzy1vU+R8Q93foZOoGgfEDetiClOqNvggdtnRpdCsAgfm8VU9mKkv2unla8RBYwA6hoFwqg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="/css/style.css">
+
+    </head>
+    <body>
+        <header>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="/index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="/index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="/index.html#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="/index.html#cert" class="nav__link">My Certifications</a></li>
+                    <li class="nav__item">
+                      <a href="/project__page.html" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="/cert__page.html" class="nav__link">Certifications</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro cert__intro">
+              <strong>Document Retrieval</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro project--intro">COMPLETED ON: 30.AUGUST.2021    </p>
+            <img src="/img/DR.jpg" alt="Document Retrieval" class="intro__img">
+        </section>
+
+        <!--Projects-->
+
+        <section class="project5" id="project5">
+            <div class="project__content">
+                <p><strong>Skills Involved: </strong>
+                    <span class="cert__tag2">Machine Learning</span>
+                    <span class="cert__tag2">Python</span>
+                    <span class="cert__tag2">TuriCreate</span>
+                    <span class="cert__tag2">Clustering Models</span>
+                    <span class="cert__tag2">Document Similarity</span></p>
+                    <p><strong>Mentor:</strong> Emily Fox and Carlos Guestrin</p>
+                    <p><strong>Links:</strong>
+                        <span class="pro--links"><a href="https://github.com/AbhiramSankar/DocumentRetrieval.git" class="pro__link" alt="GitHub"> <i class="fab fa-github"></i></a></span>
+                        <span class="pro--links"><a href="https://gitlab.com/AbhiramSankar/DocumentRetrieval.git" class="pro__link" alt="GitLab"><i class="fa-brands fa-gitlab"></i></a></span></p> 
+            </div>
+            <div class="project__description">
+                <p>This is the process of obtaining information system resources relevant to a specific information need from a collection of those resources. Full-text or other content-based indexing can be used to conduct searches. By analyzing their text, we used nearest neighbors and clustering to retrieve documents of interest to the users. There are two types of document representations considered: word counts and TF-IDF (Term Frequency - Inverse Document Frequency).</p>
+                <p>In this assignment, a Jupyter notebook was created to retrieve Wikipedia articles about famous people. The retrieval results for various famous people were explored, and the code required to build a retrieval system was familiarized.</p>
+            </div>
+          <a href="/project__page.html" class="btn"><< Back to Projects</a>
+        </section>
+        
+
+        <!-- Footer -->
+        <footer class="footer">
+
+            <a href="mailto:abhiramsankar102000@gmail.com" class="footer__link">abhiramsankar102000@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/AbhiramSankar">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://gitlab.com/AbhiramSankar">
+                        <i class="fa-brands fa-gitlab"></i></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/abhiram-sankar/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/abhiramsankar10">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+
+        <script src="/js/index.js"></script>
+
+    </body>
+</html>
